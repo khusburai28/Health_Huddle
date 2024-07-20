@@ -33,9 +33,19 @@ function App() {
         "It was a pleasure working with the entire Health Huddle development team. They were able to launch our iOS app in a few months and it looks and works beautifully. ",
     },
     {
+      name: "Vanshika Gupta",
+      review:
+        "Health Huddle provides an intuitive platform for journaling, exploring wellness resources, and enjoying guided meditation.",
+    },
+    {
       name: "Anshika Singh",
       review:
         "An amazing and thoughful app.It helps to express myself only to me with full security.",
+    },
+    {
+      name: "Aditya Chaube",
+      review:
+        "Health Huddle combines easy journaling with valuable health resources and calming meditation sounds, all in one user-friendly app.",
     },
   ];
 
