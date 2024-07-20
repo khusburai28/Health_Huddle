@@ -146,7 +146,7 @@ const Home = ({ testimonies }) => {
       </section>
 
       <section className="footer">
-        Made with <FaHeart style={{ color: "#F68989" }} /> at IIIT Lucknow.
+        Made with <FaHeart style={{ color: "#F68989" }} /> at Guru Gobind Singh Indraprastha University (USAR).
       </section>
     </div>
   );
