@@ -1,6 +1,6 @@
 ## Health Huddle
 
-A digital journaling app with with mood tracking.
+A digital journaling app with health and  mood tracking.
 
 ### Installing
 
