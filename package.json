@@ -1,0 +1,35 @@
+{
+  "name": "health-huddle",
+  "version": "1.0.0",
+  "description": "A digital journal app with Health tracking.",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khusburai28/Health_Huddle.git"
+  },
+  "author": "Khusbu Rai",
+  "license": "ISC",
+  "homepage": "https://github.com/khusburai28/Health_Huddle #readme",
+  "dependencies": {
+    "apos-to-lex-form": "^1.0.5",
+    "body-parser": "^1.20.2",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "mongoose": "^7.0.2",
+    "morgan": "^1.10.0",
+    "natural": "^6.2.0",
+    "openai": "^3.2.1",
+    "spelling-corrector": "^3.0.0",
+    "stopword": "^2.0.8"
+  }
+}
